@@ -11,6 +11,7 @@ AI-based web application that generates specific recipes based on calories count
 - NextJS 14
 - MongoDB
 - OpenAI
+- TailwindCSS
 - shadcn/ui
 
 ## Getting Started
