@@ -8,15 +8,16 @@ AI-based web application that generates specific recipes based on calories count
 
 ## Technologies and libraries used
 
+- NodeJS
 - NextJS 14
-- MongoDB
+- MongoDB Cloud
 - OpenAI
 - TailwindCSS
 - shadcn/ui
 
 ## Getting Started
 
-For using MongoDB and OpenAI add the following keys to `.env` file :
+For using MongoDB Cloud and OpenAI add the following keys to `.env` file :
 
 ```bash
 NODE_ENV = development
