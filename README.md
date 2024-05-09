@@ -15,6 +15,15 @@ AI-based web application that generates specific recipes based on calories count
 
 ## Getting Started
 
+For using MongoDB and OpenAI add the following keys to `.env` file :
+
+```bash
+NODE_ENV = development
+NEXT_ATLAS_URI = MONGODB_CONNECTION_STRING
+NEXT_ATLAS_DATABASE = MONGODB_DATABASE_NAME
+OPENAI_API_KEY=OPENAI_API_KEY
+```
+
 First, run the development server::
 
 ```bash
