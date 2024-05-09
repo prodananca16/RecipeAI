@@ -40,7 +40,16 @@ const StudentCard = () => {
                   </span>
                   <div>
                     <p className="text-sm font-medium leading-none">
-                      Github repository
+                      <a
+                        href={
+                          !process.env.NEXT_GITHUB_REPOSITORY
+                            ? "#"
+                            : process.env.NEXT_GITHUB_REPOSITORY
+                        }
+                        target="_blank"
+                      >
+                        Github repository
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -50,7 +59,16 @@ const StudentCard = () => {
                   </span>
                   <div>
                     <p className="text-sm font-medium leading-none">
-                      Video presentation
+                      <a
+                        href={
+                          !process.env.NEXT_YOUTUBE_PRESENTATION
+                            ? "#"
+                            : process.env.NEXT_YOUTUBE_PRESENTATION
+                        }
+                        target="_blank"
+                      >
+                        Video presentation
+                      </a>
                     </p>
                   </div>
                 </div>
