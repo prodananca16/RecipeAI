@@ -140,7 +140,8 @@ const CaloriesBasedRecipes = () => {
           </CardTitle>
           <CardDescription>
             Generate 1 recipe by setting the nutritional value and the meal
-            type. When you are finished press <b>Generate recipe</b> button.
+            type. When you are finished press <b>Generate recipe</b> button. If
+            no meal is selected <b>Breakfast</b> will be used by default.
           </CardDescription>
         </CardHeader>
 

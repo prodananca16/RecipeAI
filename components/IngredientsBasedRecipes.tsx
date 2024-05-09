@@ -143,7 +143,8 @@ const IngredientsBasedRecipes = () => {
             Generate 1 recipe by adding one or more ingredients and cooking
             time. To add a new ingredient press <b>Add new ingredient</b> button
             (3 ingredients minimum). When you are finished press{" "}
-            <b>Generate recipe</b> button.
+            <b>Generate recipe</b> button.{" "}
+            <b>No empty ingredients are allowed.</b>
           </CardDescription>
         </CardHeader>
 
@@ -186,7 +187,11 @@ const IngredientsBasedRecipes = () => {
         <AddIngredientButton addIngredient={addIngredient} />
         <Button
           className="bg-green-900 flex my-5"
-          disabled={ingredients.length < 3 || loading}
+          disabled={
+            ingredients.length < 3 ||
+            ingredients.filter((i) => i === "").length > 0 ||
+            loading
+          }
           onClick={generateRecipes}
         >
           {!loading && "Generate recipe"}
