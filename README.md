@@ -6,7 +6,7 @@ AI-based web application that generates specific recipes based on calories count
 
 [See live demo](https://recipe-ai-dusky.vercel.app/).
 
-## Technologies and libraries
+## Technologies and libraries used
 
 - NextJS 14
 - MongoDB
