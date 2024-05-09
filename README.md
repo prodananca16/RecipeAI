@@ -1,4 +1,5 @@
-##RecipeAI
+## RecipeAI
+
 AI-based web application that generates specific recipes based on calories count or ingredients
 
 ## Live demo
