@@ -63,17 +63,17 @@ OPENAI_API_KEY=OPENAI_API_KEY
 <ul>
   <li><b>http://localhost:3000/api/recipes/type/ingredients</b></li>
   <li><b>http://localhost:3000/api/recipes/</b> - POST
-<div>
-  
-    ```bash
-    Request body JSON format : 
-    {
-      text: string[],
-      type: string
-    }
-    ```
+    <div>
+      ```bash
     
-  </div></li>
+      Request body JSON format : 
+      {
+        text: string[],
+        type: string
+      }
+      ```
+    </div>
+  </li>
 </ul>
 
 
