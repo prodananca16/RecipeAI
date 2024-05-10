@@ -2,6 +2,8 @@
 
 - [RecipeAI](#recipeai)
   - [Descriere problema](#descriere-problema)
+  - [Descriere API](#descriere-api)
+    - [Rute](#rute)
 - [Live demo](#live-demo)
 - [Technologies and libraries used](#technologies-and-libraries-used)
 - [Getting Started](#getting-started)
@@ -31,6 +33,24 @@
 <p>RecipeAI abordeaza aceasta problema prin combinarea inteligentei artificiale cu domeniul culinar, oferind o solutie simpla si eficienta pentru generarea rapida si personalizata de retete. Prin utilizarea algoritmilor avansati de analiza a datelor si de procesare a limbajului natural, aplicatia poate interpreta preferintele utilizatorului si genera propuneri de preparate culinare perfect adaptate cerintelor sale.</p>
 <p>Indiferent daca sunteti in cautarea unei retete cu un anumit numar de calorii sau doriti sa va folositi de ingredientele disponibile in bucatarie pentru a pregati ceva delicios, RecipeAI va ofera solutia ideala pentru a satisface pofta de experimentare si descoperire gastronomica. Cu beneficii precum economisirea timpului si diversificarea alimentatiei, aplicatia web RecipeAI este raspunsul modern la provocarile legate de gasirea retetelor personalizate si atragatoare.</p>
 
+## Descriere API
+<h4>Configurarea API-ului NextJS</h4>
+<p>Pentru Autentificare si autorizarea serviciilor utilizate se folosesc chei de mediu:</p>
+```bash
+NODE_ENV = development
+NEXT_ATLAS_URI = MONGODB_CONNECTION_STRING
+NEXT_ATLAS_DATABASE = MONGODB_DATABASE_NAME
+OPENAI_API_KEY=OPENAI_API_KEY
+```
+
+## Rute
+<ul>
+  <li>/api/recipes</li>
+  <li>/api/recipes/[recipeID]</li>
+  <li>/api/recipes/type/[type]</li>
+  <li>/api/openai</li>
+</ul>
+
 ## Live demo
 
 [See live demo](https://recipe-ai-dusky.vercel.app/).
@@ -48,12 +68,6 @@
 
 For using MongoDB Cloud and OpenAI add the following keys to `.env` file :
 
-```bash
-NODE_ENV = development
-NEXT_ATLAS_URI = MONGODB_CONNECTION_STRING
-NEXT_ATLAS_DATABASE = MONGODB_DATABASE_NAME
-OPENAI_API_KEY=OPENAI_API_KEY
-```
 
 First, run the development server::
 
