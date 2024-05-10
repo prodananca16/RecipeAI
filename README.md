@@ -1,3 +1,10 @@
+## Table of contents
+
+- [RecipeAI](#recipeai)
+- [Live demo](#live-demo)
+- [Technologies and libraries used](#technologies-and-libraries-used)
+- [Getting Started](#getting-started)
+
 ## RecipeAI
 
 <p>RecipeAI este o aplicatie web inovatoare bazata pe inteligenta artificiala, conceputa pentru a genera retete personalizate in functie de preferintele si nevoile utilizatorilor. Cu ajutorul tehnologiilor avansate de procesare a limbajului natural si de recunoastere a imaginilor, RecipeAI poate crea retete delicioase si sanatoase, adaptate in functie de doua criterii principale: numarul de calorii dorit sau o lista de trei ingrediente preferate.</p>
@@ -22,11 +29,6 @@
 ## Live demo
 
 [See live demo](https://recipe-ai-dusky.vercel.app/).
-
-## Table of contents
-
-- [Technologies and libraries used](#technologies-and-libraries-used)
-- [Getting Started](#getting-started)
 
 ## Technologies and libraries used
 
