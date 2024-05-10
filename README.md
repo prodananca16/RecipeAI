@@ -8,11 +8,8 @@ AI-based web application that generates specific recipes based on calories count
 
 ## Table of contents
 
-[Technologies and libraries used](#technologies-and-libraries-used)
-[Getting Started](#getting-started)
-
-- <a name="technologies-and-libraries-used">
-- <a name="getting-started">
+- [Technologies and libraries used](#technologies-and-libraries-used)
+- [Getting Started](#getting-started)
 
 ## Technologies and libraries used
 
