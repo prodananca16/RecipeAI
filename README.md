@@ -8,8 +8,7 @@
     - [Testarea API-urilor](#testarea-api-urilor)
   - [Pornirea aplicatiei](#pornirea-aplicatiei)
 - [Live demo](#live-demo)
-- [Tehnologii si librarii folosite](#tehnologii-si-librarii-folosite)
-- [Referinte](#referinte)
+- [Tehnologii, librarii folosite si referinte](#tehnologii-,-librarii-folosite-si-referinte)
 
 ## RecipeAI
 
@@ -128,18 +127,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 [See live demo](https://recipe-ai-dusky.vercel.app/).
 
-## Tehnologii si librarii folosite
+## Tehnologii, librarii folosite si referinte
 
-- NodeJS
-- NextJS 14
-- MongoDB Cloud
-- OpenAI
-- TailwindCSS
-- shadcn/ui
-
-## Referinte
-
-- [NextJS](https://nextjs.org/docs)
+- [OpenAI](https://openai.com/)
+- [NextJS 14](https://nextjs.org/docs)
 - [MongoDB Cloud](https://www.mongodb.com/products/platform/cloud)
 - [NodeJS](https://nodejs.org/en)
 - [TailwindCSS](https://tailwindcss.com/docs/installation)
