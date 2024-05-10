@@ -2,8 +2,8 @@
 
 AI-based web application that generates specific recipes based on calories count or ingredients
 
-| ![homePage](/public/app/homePage.png) |
-| ![caloriesPage](/public/app/caloriesPage.png)  | ![ingredientsPage](/public/app/IngredientsPage.png)  |
+| ![homePage](/public/app/homePage.png) | |
+| ![caloriesPage](/public/app/caloriesPage.png)  | ![ingredientsPage](/public/app/ingredientsPage.png)  |
 
 
 ## Live demo
