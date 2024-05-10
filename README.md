@@ -1,9 +1,11 @@
 ## Table of contents
 
 - [RecipeAI](#recipeai)
+  - [Prezentare video](https://youtu.be/50U__vEpPPs)
   - [Descriere problema](#descriere-problema)
   - [Descriere API](#descriere-api)
     - [Rute](#rute)
+    - [Testarea API-urilor](#testarea-api-urilor)
 - [Live demo](#live-demo)
 - [Technologies and libraries used](#technologies-and-libraries-used)
 - [Getting Started](#getting-started)
@@ -46,11 +48,61 @@ OPENAI_API_KEY=OPENAI_API_KEY
 
 ## Rute
 <ul>
-  <li>/api/recipes</li>
-  <li>/api/recipes/[recipeID]</li>
-  <li>/api/recipes/type/[type]</li>
-  <li>/api/openai</li>
+  <li>/api/recipes - accepta metoda POST. Acest endpoint este folosit pentru salvarea unei retete generate de ChatGPT in baza de date</li>
+  <li>/api/recipes/[recipeID] - accepta metodele DELETE si GET. Acest endpoint este folosit pentru stergerea sau cautarea in baza de date a unei retete</li>
+  <li>/api/recipes/type/[type] - accepta metoda GET. Acest endpoint este folosit pentru a returna din baza de date toate retetele de un anumit tip (`ingredients` sau `calories`)</li>
+  <li>/api/openai - accepta metoda POST. Acest endpoint este folosit pentru generarea unei retete folosind ChatGPT.</li>
 </ul>
+
+## Testarea API-urilor
+
+<h3>Folosind POSTMAN</h3>
+<p>
+  <img src="./public/app/testareApi.png"  alt="1">
+</p>
+
+<ul>
+  <li><b>http://localhost:3000/api/recipes/type/ingredients</b></li>
+  <li><b>http://localhost:3000/api/recipes/</b> - POST
+    <div>
+      
+      Request body JSON format:
+      {
+        text: string[],
+        type: string
+      }
+
+      Response JSON format:
+      {
+        aknowledged: boolean,
+        insertedId: string
+      }
+      
+
+  </div></li>
+  <li>
+    <b>http://localhost:3000/api/openai</b>
+    <div>
+
+      Request body JSON format:
+      {
+        ingredients: string[],
+        cookingTime: string,
+        calories: string,
+        meal: string
+      }
+      
+      Response JSON format:
+      {
+        recipes: string[]
+      }      
+      
+    
+     
+  </div><img src="./public/app/openaiPostman.png"  alt="1"></li>
+</ul>
+
+
 
 ## Live demo
 
