@@ -77,8 +77,8 @@ OPENAI_API_KEY=OPENAI_API_KEY
         insertedId: string
       }
       
-    </div>
-  </li>
+
+  </div></li>
   <li>
     <b>http://localhost:3000/api/openai</b>
     <div>
@@ -90,15 +90,15 @@ OPENAI_API_KEY=OPENAI_API_KEY
         calories: string,
         meal: string
       }
-
+      
       Response JSON format:
       {
         recipes: string[]
-      }
-        
-    </div>
-     <img src="./public/app/openAiPostman.png"  alt="1">
-  </li>
+      }      
+      
+    
+     
+  </div><img src="./public/app/openAiPostman.png"  alt="1"></li>
 </ul>
 
 
