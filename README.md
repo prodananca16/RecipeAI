@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [RecipeAI](#recipeai)
-  - [Prezentare video] (https://youtu.be/50U__vEpPPs)
+  - [Prezentare video](https://youtu.be/50U__vEpPPs)
   - [Descriere problema](#descriere-problema)
   - [Descriere API](#descriere-api)
     - [Rute](#rute)
