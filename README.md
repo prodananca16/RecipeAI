@@ -6,9 +6,10 @@
   - [Descriere API](#descriere-api)
     - [Rute](#rute)
     - [Testarea API-urilor](#testarea-api-urilor)
+  - [Pornirea aplicatiei](#pornirea-aplicatiei)
 - [Live demo](#live-demo)
-- [Technologies and libraries used](#technologies-and-libraries-used)
-- [Getting Started](#getting-started)
+- [Tehnologii si librarii folosite](#tehnologii-si-librarii-folosite)
+- [Referinte](#referinte)
 
 ## RecipeAI
 
@@ -102,22 +103,7 @@ OPENAI_API_KEY=OPENAI_API_KEY
   </div><img src="./public/app/openaiPostman.png"  alt="1"></li>
 </ul>
 
-
-
-## Live demo
-
-[See live demo](https://recipe-ai-dusky.vercel.app/).
-
-## Technologies and libraries used
-
-- NodeJS
-- NextJS 14
-- MongoDB Cloud
-- OpenAI
-- TailwindCSS
-- shadcn/ui
-
-## Getting Started
+## Pornirea aplicatiei
 
 For using MongoDB Cloud and OpenAI add the following keys to `.env` file :
 
@@ -137,3 +123,26 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Live demo
+
+[See live demo](https://recipe-ai-dusky.vercel.app/).
+
+## Tehnologii si librarii folosite
+
+- NodeJS
+- NextJS 14
+- MongoDB Cloud
+- OpenAI
+- TailwindCSS
+- shadcn/ui
+
+## Referinte
+
+- [NextJS](https://nextjs.org/docs)
+- [MongoDB Cloud](https://www.mongodb.com/products/platform/cloud)
+- [NodeJS](https://nodejs.org/en)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Publicare folosind Vercel](https://nextjs.org/docs/pages/building-your-application/deploying)
+
