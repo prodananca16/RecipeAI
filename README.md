@@ -8,7 +8,7 @@
     - [Testarea API-urilor](#testarea-api-urilor)
   - [Pornirea aplicatiei](#pornirea-aplicatiei)
 - [Live demo](#live-demo)
-- [Tehnologii, librarii folosite si referinte](#tehnologii-,-librarii-folosite-si-referinte)
+- [Tehnologi/librarii folosite si referinte](#tehnologii/librarii-folosite-si-referinte)
 
 ## RecipeAI
 
@@ -104,10 +104,16 @@ OPENAI_API_KEY=OPENAI_API_KEY
 
 ## Pornirea aplicatiei
 
-For using MongoDB Cloud and OpenAI add the following keys to `.env` file :
+Pentru a folosi MongoDB Cloud si OpenAI adauga urmatoarele chei in fisierul `.env` :
 
+```bash
+NODE_ENV = development
+NEXT_ATLAS_URI = MONGODB_CONNECTION_STRING
+NEXT_ATLAS_DATABASE = MONGODB_DATABASE_NAME
+OPENAI_API_KEY=OPENAI_API_KEY
+```
 
-First, run the development server::
+Pentru a porni aplicatia se executa una din urmatoarele comenzi::
 
 ```bash
 npm run dev
@@ -119,15 +125,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deschide [http://localhost:3000](http://localhost:3000) in browser pentru a vedea aplicatia.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Acest proiect foloseste [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) pentru a incarca si optimiza automat fontul custom Inter(custom Google Font).
 
 ## Live demo
 
 [See live demo](https://recipe-ai-dusky.vercel.app/).
 
-## Tehnologii, librarii folosite si referinte
+## Tehnologii/librarii folosite si referinte
 
 - [OpenAI](https://openai.com/)
 - [NextJS 14](https://nextjs.org/docs)
