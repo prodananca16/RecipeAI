@@ -1,4 +1,4 @@
-## Table of contents
+## Cuprins
 
 - [RecipeAI](#recipeai)
   - [Prezentare video](https://youtu.be/50U__vEpPPs)
