@@ -1,6 +1,7 @@
 ## Table of contents
 
 - [RecipeAI](#recipeai)
+  - [Descriere problema](#descriere-problema)
 - [Live demo](#live-demo)
 - [Technologies and libraries used](#technologies-and-libraries-used)
 - [Getting Started](#getting-started)
@@ -25,6 +26,10 @@
   </tr>
 </table>
 
+## Descriere problema
+<p>In societatea moderna agitata si plina de diversitate culinara, gasirea retetelor potrivite si adaptate nevoilor individuale poate fi o provocare. Fie ca doriti sa urmati o dieta cu un anumit numar de calorii sau aveti la dispozitie anumite ingrediente in bucatarie, navigarea printre sutele de retete disponibile poate fi copleșitoare si consumatoare de timp.</p>
+<p>RecipeAI abordeaza aceasta problema prin combinarea inteligentei artificiale cu domeniul culinar, oferind o solutie simpla si eficienta pentru generarea rapida si personalizata de retete. Prin utilizarea algoritmilor avansati de analiza a datelor si de procesare a limbajului natural, aplicatia poate interpreta preferintele utilizatorului si genera propuneri de preparate culinare perfect adaptate cerintelor sale.</p>
+<p>Indiferent daca sunteti in cautarea unei retete cu un anumit numar de calorii sau doriti sa va folositi de ingredientele disponibile in bucatarie pentru a pregati ceva delicios, RecipeAI va ofera solutia ideala pentru a satisface pofta de experimentare si descoperire gastronomica. Cu beneficii precum economisirea timpului si diversificarea alimentatiei, aplicatia web RecipeAI este raspunsul modern la provocarile legate de gasirea retetelor personalizate si atragatoare.</p>
 
 ## Live demo
 
