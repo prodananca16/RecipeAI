@@ -1,6 +1,8 @@
 ## RecipeAI
 
 AI-based web application that generates specific recipes based on calories count or ingredients
+![homePage](https://github.com/prodananca16/RecipeAI/assets/75379555/71d7a4fb-c55a-41c6-8f32-555cc4e031f2)
+
 
 ## Live demo
 
