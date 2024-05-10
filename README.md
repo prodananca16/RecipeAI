@@ -60,6 +60,23 @@ OPENAI_API_KEY=OPENAI_API_KEY
   <img src="./public/app/testareApi.png"  alt="1">
 </p>
 
+<ul>
+  <li><b>http://localhost:3000/api/recipes/type/ingredients</b></li>
+  <li><b>http://localhost:3000/api/recipes/</b> - POST
+<div>
+  
+    ```bash
+    Request body JSON format : 
+    {
+      text: string[],
+      type: string
+    }
+    ```
+    
+  </div></li>
+</ul>
+
+
 
 ## Live demo
 
