@@ -62,7 +62,7 @@ OPENAI_API_KEY=OPENAI_API_KEY
 </p>
 
 <ul>
-  <li><b>http://localhost:3000/api/recipes/type/ingredients</b></li>
+  <li><b>http://localhost:3000/api/recipes/type/ingredients</b> - GET</li>
   <li><b>http://localhost:3000/api/recipes/</b> - POST
     <div>
       
@@ -81,7 +81,7 @@ OPENAI_API_KEY=OPENAI_API_KEY
 
   </div></li>
   <li>
-    <b>http://localhost:3000/api/openai</b>
+    <b>http://localhost:3000/api/openai</b> - POST
     <div>
 
       Request body JSON format:
