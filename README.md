@@ -64,15 +64,40 @@ OPENAI_API_KEY=OPENAI_API_KEY
   <li><b>http://localhost:3000/api/recipes/type/ingredients</b></li>
   <li><b>http://localhost:3000/api/recipes/</b> - POST
     <div>
-      ```bash
-    
-      Request body JSON format : 
+      
+      Request body JSON format:
       {
         text: string[],
         type: string
       }
-      ```
+
+      Response JSON format:
+      {
+        aknowledged: boolean,
+        insertedId: string
+      }
+      
     </div>
+  </li>
+  <li>
+    <b>http://localhost:3000/api/openai</b>
+    <div>
+
+      Request body JSON format:
+      {
+        ingredients: string[],
+        cookingTime: string,
+        calories: string,
+        meal: string
+      }
+
+      Response JSON format:
+      {
+        recipes: string[]
+      }
+        
+    </div>
+     <img src="./public/app/openAiPostman.png"  alt="1">
   </li>
 </ul>
 
