@@ -2,8 +2,19 @@
 
 AI-based web application that generates specific recipes based on calories count or ingredients
 
-| ![homePage](/public/app/homePage.png) | |
-| ![caloriesPage](/public/app/caloriesPage.png)  | ![ingredientsPage](/public/app/ingredientsPage.png)  |
+<table>
+  <tr>
+    <td> <img src="./public/app/homePage.png"  alt="1"></td>
+    <td><img src="./public/app/caloriesPage.png" alt="2"></td>
+   </tr> 
+   <tr>
+      <td><img src="./public/app/ingredientsPage.png" alt="3"></td>
+      <td><img src="./public/app/saveRecipe.png" align="right" alt="4"></td>
+  </tr>
+  <tr>
+    <td><img src="./public/app/deleteRecipe.png" align="right" alt="5"></td>
+  </tr>
+</table>
 
 
 ## Live demo
