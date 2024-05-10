@@ -1,6 +1,7 @@
 ## Table of contents
 
 - [RecipeAI](#recipeai)
+  - [Prezentare video] (https://youtu.be/50U__vEpPPs)
   - [Descriere problema](#descriere-problema)
   - [Descriere API](#descriere-api)
     - [Rute](#rute)
@@ -98,7 +99,7 @@ OPENAI_API_KEY=OPENAI_API_KEY
       
     
      
-  </div><img src="./public/app/openAiPostman.png"  alt="1"></li>
+  </div><img src="./public/app/openaiPostman.png"  alt="1"></li>
 </ul>
 
 
