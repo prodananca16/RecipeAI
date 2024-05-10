@@ -131,7 +131,7 @@ Acest proiect foloseste [`next/font`](https://nextjs.org/docs/basic-features/fon
 
 ## Live demo
 
-[See live demo](https://recipe-ai-dusky.vercel.app/).
+[Vezi live demo](https://recipe-ai-dusky.vercel.app/).
 
 ## Tehnologii/librarii folosite si referinte
 
