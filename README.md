@@ -36,6 +36,7 @@
 ## Descriere API
 <h4>Configurarea API-ului NextJS</h4>
 <p>Pentru Autentificare si autorizarea serviciilor utilizate se folosesc chei de mediu:</p>
+
 ```bash
 NODE_ENV = development
 NEXT_ATLAS_URI = MONGODB_CONNECTION_STRING
